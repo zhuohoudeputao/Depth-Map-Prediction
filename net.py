@@ -705,7 +705,7 @@ class Unit(object):
 
             self.params = []
 
-            self._init_params(*args, **kwargs)
+            self.init_params(*args, **kwargs)
 
             self.loaded = False
 
